@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
         binding.btnUpdating.setOnClickListener(view -> Toast.makeText(this, "Actualizacion de perfil", Toast.LENGTH_SHORT).show());
         binding.btnGallery.setOnClickListener(view -> Toast.makeText(this, "Guardar foto en la galeria", Toast.LENGTH_SHORT).show());
         binding.btnUnlock.setOnClickListener(view -> Toast.makeText(this, "Desbloquear nivel 5", Toast.LENGTH_SHORT).show());
-        binding.btnTurn.setOnClickListener(view -> Toast.makeText(this, "Turn of Fligth Mode", Toast.LENGTH_SHORT).show());
-        binding.btnTurn.setOnClickListener(view -> Toast.makeText(this, "Turn of Fligth Mode", Toast.LENGTH_SHORT).show());
+        binding.btnLevel.setOnClickListener(view -> Toast.makeText(this, "Nivel 4 completado", Toast.LENGTH_SHORT).show());
+        binding.btnPause.setOnClickListener(view -> Toast.makeText(this, "Musica en pausa", Toast.LENGTH_SHORT).show());
 
     }
 
